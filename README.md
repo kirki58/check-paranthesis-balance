@@ -8,7 +8,7 @@ In a string containing paranthesis, there should be a balance. For every opening
 `( [ ) ]` is not although every opening paranthesis or brackets have a closing counterpart.
 
 ## How to Check Their Balance
-Basically, the algorith is: every time there is an occurance of an opening paranthesis in a string while iterating over it, you push it to a stack and anytime there is an occurance of a closing paranthesis you check if the stack is empty, if the stack is empty that means the first paranthesis occurance in that string is a closing paranthesis so you return false. If not empty, you take the top of the stack, if it is the opening counterpart of the closing paranthesis you pop the top of the stack.
+Basically, the algorithm is: every time there is an occurance of an opening paranthesis in a string while iterating over it, you push it to a stack and anytime there is an occurance of a closing paranthesis you check if the stack is empty, if the stack is empty that means the first paranthesis occurance in that string is a closing paranthesis so you return false. If not empty, you take the top of the stack, if it is the opening counterpart of the closing paranthesis you pop the top of the stack.
 
 eventually if you end up with an empty stack, that means that the string is valid paranthesis-wise otherwise it is not.
 
